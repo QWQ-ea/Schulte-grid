@@ -1,0 +1,12 @@
+/**app.wxss**/
+.box{
+border: 1px solid black;
+}
+.title{
+text-align: center;
+  font-size: larger;
+  font-style: italic;
+  color: coral;  
+}
+page{
+background-color:white}

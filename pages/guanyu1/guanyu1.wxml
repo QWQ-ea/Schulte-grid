@@ -1,0 +1,18 @@
+<!--pages/guanyu1/guanyu1.wxml-->
+<view class="box">
+<view class="title">关于我</view>
+<swiper indicator-dots="true" autoplay="true" circular="true" duration="500" interval="2000">
+<swiper-item><button bindtap="clac1" style="background-color: cyan; text-align: center;color:white;">1.自我介绍</button></swiper-item>
+<swiper-item><button bindtap="clac2" style="background-color: chartreuse;text-align: center;color: white;">2.做游戏的初衷</button></swiper-item>
+<swiper-item><button bindtap="clac3" style="background-color: coral;color: white;">3.游玩时的的说明</button></swiper-item>
+</swiper>
+<view hidden="{{a}}" class="class1">
+网名：QWQ,一个大学在读计院人。
+</view>
+<view hidden="{{b}}" class="class2">
+做这游戏的初衷：当今社会下，我们追求着效率，而专注力是影响效率的一大重要因素，舒尔格方格是我高中接触过的一款对提升专注力有显著作用的游戏，我本人也喜欢玩各种游戏，更想自己写出一款游戏，于是我的舒尔特方格诞生了。
+</view>
+<view hidden="{{c}}" class="class3">
+由于本人技术有限，本游戏完全是发出来玩玩，所以一些功能并没有很完善，比如游戏玩法的视频介绍（因为视频源地址不断更新）。
+</view>
+</view>

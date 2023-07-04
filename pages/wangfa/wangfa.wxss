@@ -1,0 +1,19 @@
+/* pages/wangfa/wangfa.wxss */
+.videolayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50rpx 0;
+    }
+.damuclass{
+color: black;
+font-size: larger;
+text-align: left;
+font-weight: bolder;
+}
+input{
+height: 80rpx;
+background-color: white;
+border: 1px solid blanchedalmond;
+margin: 10px 0;
+}

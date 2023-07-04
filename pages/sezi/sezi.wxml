@@ -1,0 +1,20 @@
+<!--pages/sezi/sezi.wxml-->
+<view class="box">
+<view class="class2">音乐</view>
+<view class="class1">
+<audio src="../audio/Cartier - 原神-珊瑚宫BGM.mp3" name="原神1" author="Cattier" loop="true" controls="true" poster="../images/yuanshen1.jpg"></audio>
+</view>
+<view class="class1">
+<audio src="../audio//陈致逸,HOYO-MiX - Qilin's Prance 麟跃幽岩.mp3" name="原神2" author="陈致诒" loop="true" controls="true" poster="../images/yuanshen3.jpg"></audio>
+</view>
+<view class="class1">
+<audio src="../audio//Dreamssg - 原神登陆页面BGM.mp3" name="原神3" author="不知道作者名"loop="true" controls="true" poster="../images/yuanshen2.jpg"></audio>
+</view>
+</view>
+<view class="box">
+<view class="class2">点击音效</view>
+ <view class="waikuang">
+ <text class="myleft">音效</text>
+ <switch checked="{{a}}" bindchange="clac1"></switch>
+ </view>
+</view>

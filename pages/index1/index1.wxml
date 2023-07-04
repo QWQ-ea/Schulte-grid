@@ -1,0 +1,32 @@
+<!--pages/index1/index1.wxml-->
+<view class="box">
+<view class="title">4x4阶</view>
+<view style="text-align: center; color: cyan;font-size: large;">{{time}}</view>
+<view style="display: flex; flex-direction: column;margin: 5px;">
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac1">{{rand[0]}}</button>
+<button bindtap="clac2">{{rand[1]}}</button>
+<button bindtap="clac3">{{rand[2]}}</button>
+<button bindtap="clac4">{{rand[3]}}</button>
+</view>
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac5">{{rand[4]}}</button>
+<button bindtap="clac6">{{rand[5]}}</button>
+<button bindtap="clac7">{{rand[6]}}</button>
+<button bindtap="clac8">{{rand[7]}}</button>
+</view>
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac9">{{rand[8]}}</button>
+<button bindtap="clac10">{{rand[9]}}</button>
+<button bindtap="clac11">{{rand[10]}}</button>
+<button bindtap="clac12">{{rand[11]}}</button>
+</view>
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac13">{{rand[12]}}</button>
+<button bindtap="clac14">{{rand[13]}}</button>
+<button bindtap="clac15">{{rand[14]}}</button>
+<button bindtap="clac16">{{rand[15]}}</button>
+</view>
+</view>
+</view>
+

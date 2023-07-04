@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="title">舒尔特方格</view>
+<view>
+<image src="../images/souye3.jpg" mode="aspectFit"></image>
+</view>
+<button bindtap="clac" style="background-color: hotpink;color: white;">开始游戏</button>
+<view hidden="{{hidden}}">
+<text class="text1">选择难度</text>
+<view style="display: flex;flex-direction:column;text-align: center;line-height: 80px;">
+<view style="flex-grow: 1;">
+<button bindtap="clac1" style="background-color: green;color: white;">正常</button>
+</view>
+<view style="flex-grow: 1;">
+<button bindtap="clac2" style="background-color:blue;color: white;">乱序</button>
+</view>
+<view style="flex-grow: 1;">
+<button bindtap="clac3" style="background-color: red;color: white;">盲玩</button>
+</view>
+<view style="flex-grow: 1;">
+<button bindtap="clac4" style="background-color: hotpink;color: white;">返回</button>
+</view>
+</view>
+</view>

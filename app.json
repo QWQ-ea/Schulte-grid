@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/sezi/sezi",
+    "pages/wangfa/wangfa",
+    "pages/guanyu1/guanyu1",
+    "pages/jilu/jilu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "舒尔特方格",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/images/souye1.jpg",
+      "selectedIconPath": "pages/images/souye2.jpg"
+    },
+    {
+"pagePath": "pages/jilu/jilu",
+"text": "记录",
+"iconPath": "pages/images/jilu1.jpg",
+"selectedIconPath": "pages/images/jilu2.jpg"
+    },
+    {
+      "pagePath": "pages/sezi/sezi",
+      "text": "设置",
+      "iconPath": "pages/images/sezi1.jpg",
+      "selectedIconPath": "pages/images/sezi2.jpg"
+    },
+  { "pagePath": "pages/wangfa/wangfa",
+    "text": "玩法介绍",
+    "iconPath": "pages/images/wanfa1.jpg",
+    "selectedIconPath": "pages/images/wanfa2.jpg"},
+  { "pagePath": "pages/guanyu1/guanyu1",
+    "text": "关于我",
+    "iconPath": "pages/images/guanyu1.jpg",
+    "selectedIconPath": "pages/images/guanyu2.jpg" 
+  }
+  ]
+  }
+}

@@ -1,0 +1,19 @@
+/* pages/sezi/sezi.wxss */
+.class1{
+margin: 10px auto;
+}
+.class2{
+text-align: center;
+color: black;
+font-size: larger;
+}
+.waikuang{
+display: flex;
+flex-direction: row;
+border-bottom: 1px solid #353535;
+margin: 10px 0;
+padding: 10px 0;
+}
+.myleft{
+    flex: 1;
+}

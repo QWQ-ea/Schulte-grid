@@ -1,0 +1,20 @@
+<!--pages/jilu/jilu.wxml-->
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">模式</view>
+    <view class="th">最高记录</view>
+  </view>
+    <view class="tr bg-g">
+      <view class="td">正常</view>
+      <view class="td">{{a}}</view>
+    </view>
+    <view class="tr" >
+      <view class="td">乱序</view>
+      <view class="td">{{b}}</view>
+    </view>
+    <view class="tr bg-g">
+      <view class="td">盲玩</view>
+      <view class="td">{{c}}</view>
+    </view>
+    <button bindtap="chongzhi">重置记录</button>
+</view>

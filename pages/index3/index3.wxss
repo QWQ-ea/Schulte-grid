@@ -1,0 +1,6 @@
+/* pages/index3/index3.wxss */
+button{
+    background-color:darkcyan;
+    width: 25%;
+    height: 50px;
+    }

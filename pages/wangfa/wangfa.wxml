@@ -1,0 +1,9 @@
+<!--pages/wangfa/wangfa.wxml-->
+<view class="videolayout">
+<video id="myvideo" src="https://apd-fbca5190dc8b7c2152ba806f1f2aae60.v.smtcdns.com/om.tc.qq.com/ALs0EXPYmVCzo-XDsv5iNuFolGGSYg6seZFdyou8-gO0/uwMROfz2r5zBIaQXGdGnC2dfDma3J1MItM3912IN4IRQvkRM/m0934260426.mp4?sdtfrom=v1010&guid=a43855e902d441269cafec1d0aa067bd&vkey=8DB47F1EE165FECE84C9B459AC25E97D882CFB4AAC584553193EE18B06CF2B2C76A79B358D459476E3F2E3843E6F5ED072CF665D56F963E5077D994350F2F78D761543ECA6B09BBC2E361D9287F33EBC7BCE515B14D1F2099AFF6E739F5632016F494B1FC14D8857BB6E0A33EB1B6BFD2C2E799EAB0DC58424DE6471EBEA2306F4E78B62408CCA28" danmu-list="{{danmu}}"enable-danmu="true" controls="true" danmu-btn="true" style="width: 100%;"></video>
+</view>
+<view>
+<view class="damuclass">弹幕内容</view>
+<input bindblur="inputblur" type="text" placeholder="在此处输入弹幕内容"/>
+<button type="primary" bindtap="senddanmu">发送弹幕</button>
+</view>

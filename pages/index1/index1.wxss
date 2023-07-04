@@ -1,0 +1,6 @@
+/* pages/index1/index1.wxss */
+button{
+background-color:darkcyan;
+width: 25%;
+height: 50px;
+}

@@ -1,0 +1,24 @@
+<!--pages/index3/index3.wxml-->
+<view class="box">
+<view class="title">3x3阶盲玩</view>
+<view style="text-align: center; color: cyan;font-size: large;">{{time}}</view>
+<view style="display: flex; flex-direction: column;margin: 5px;">
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac1">{{rand[0]}}</button>
+<button bindtap="clac2">{{rand[1]}}</button>
+<button bindtap="clac3">{{rand[2]}}</button>
+</view>
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac4">{{rand[3]}}</button>
+<button bindtap="clac5">{{rand[4]}}</button>
+<button bindtap="clac6">{{rand[5]}}</button>
+</view>
+<view style="display: flex;flex-direction: row;">
+<button bindtap="clac7">{{rand[6]}}</button>
+<button bindtap="clac8">{{rand[7]}}</button>
+<button bindtap="clac9">{{rand[8]}}</button>
+</view>
+</view>
+</view>
+
+
